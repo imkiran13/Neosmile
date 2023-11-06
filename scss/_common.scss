@@ -1,0 +1,65 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #000;
+    font-size: 1rem;
+   // font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Yeseva One', cursive;
+    font-weight: 500;
+}
+p {
+    font-family: 'Swis721 BT';
+    line-height: 1.5;
+}
+
+.container {
+   // max-width: 1140px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+img {
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn {
+    padding: 14px 25px;
+    border-radius: 6px;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    font-family: 'Swis721 BT';
+}
+
+.btn-primary {
+    background-color: #f99325;
+    text-transform: uppercase;
+}
+
+.btn-black {
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+}
+
+.btn-outline {
+    border: 1px solid
+}
+.w-100 {
+    width: 100%;
+}
+
+// .d-block {
+//     display: block;
+// }
